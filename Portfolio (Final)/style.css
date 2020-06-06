@@ -12,12 +12,7 @@
     IMPORT FILES
 -------------------------------------------------------------------*/
 
-@import url(animate.css);
-@import url(camera.css);
-@import url(laticon.css);
-@import url(prettyPhoto.css);
-@import url(owl.carousel.css);
-@import url(font-awesome.min.css);
+
 
 /*------------------------------------------------------------------
     SKELETON
@@ -34,32 +29,6 @@ html, body{
 	height: 100%;
 }
 
-body.demos .section {
-    background: url(bg.png) repeat top center #f2f3f5;
-}
-
-body.demos .section-title img {
-    max-width: 280px;
-    display: block;
-    margin: 10px auto;
-}
-
-body.demos .service-widget h3 {
-    border-bottom: 1px solid #ededed;
-    font-size: 18px;
-    padding: 20px 0;
-    background-color: #ffffff;
-}
-
-body.demos .service-widget {
-    margin: 0 0 30px;
-    padding: 30px;
-    background-color: #fff
-}
-
-body.demos .container-fluid {
-    max-width: 1080px
-}
 
 a {
     color: #1f1f1f;
@@ -2011,16 +1980,16 @@ hr.invis1 {
 
 select.bs-select-hidden,
 select.selectpicker {
-    display: none !important;
+    display: none ;
 }
 
 select.mobile-device {
-    position: absolute !important;
+    position: absolute ;
     top: 0;
     left: 0;
-    display: block !important;
+    display: block ;
     width: 100%;
-    height: 100% !important;
+    height: 100% ;
     opacity: 0;
 }
 
@@ -2031,11 +2000,11 @@ select.mobile-device {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     font-size: 15px;
     height: 33px;
-    box-shadow: none !important;
-    border: 0 !important;
+    box-shadow: none ;
+    border: 0 ;
     padding: 0;
     width: 100%;
-    color: #bcbcbc !important;
+    color: #bcbcbc ;
 }
 
 .contact_form {
@@ -2133,11 +2102,7 @@ select.mobile-device {
     line-height: !important;
 }
 
-.footer {
-    padding: 90px 0 80px !important;
-    color: #999;
-    background-color: #1f1f1f;
-}
+
 
 .footer .widget-title {
     position: relative;
@@ -2167,7 +2132,7 @@ select.mobile-device {
 }
 
 .footer-links a {
-    color: #999;
+    color: grey;
 }
 
 .footer-links a:hover,
@@ -2206,15 +2171,19 @@ select.mobile-device {
     border-right: 1px dashed rgba(255, 255, 255, 0.1);
 }
 
+
 .copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color: #1f1f1f;
+    background-color: black;
     box-sizing: border-box;
     width: 100%;
     text-align: left;
     padding: 30px 0px;
     overflow: hidden;
+    margin-bottom: -15%;
 }
+
+
 
 
 /* Footer left */
@@ -2243,6 +2212,10 @@ select.mobile-device {
     padding: 0;
 }
 
+.footer-company-name a{
+  color: green;
+  margin-left: 1.5%;
+}
 
 /* Footer right */
 
@@ -2450,7 +2423,7 @@ select.mobile-device {
 .btn-light {
     padding: 10px 40px;
     font-size: 18px;
-    border: 2px solid #ffffff !important;
+    border: 2px solid #ffffff;
     color: #ffffff;
     background-color: transparent;
 }
@@ -2458,7 +2431,7 @@ select.mobile-device {
 .btn-dark {
     padding: 13px 40px;
     font-size: 18px;
-    border: 1px solid #ececec !important;
+    border: 1px solid #ecece;
     color: #1f1f1f;
     background-color: transparent;
 }
