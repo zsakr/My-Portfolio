@@ -773,6 +773,32 @@ xclip
     text-align: center;
 }
 
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.img-overlay p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.gallery-single:hover .img-overlay {
+    opacity: 1;
+}
 
 /*------------------------------------------------------------------
     TESTIMONIALS
